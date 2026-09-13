@@ -1,0 +1,217 @@
+export const PROJECTS = [
+  {
+    id: 'ciotti-auto-detailing',
+    title: 'Ciotti Auto Detailing',
+    tagline: 'Premium Automotive Studio & Ceramic Coatings',
+    industry: 'Automotive / Local Business',
+    category: 'AUTOMOTIVE',
+    categories: ['AUTOMOTIVE', 'BUSINESS', 'LEAD GENERATION'],
+    url: 'https://ciotti-auto-detailing.netlify.app',
+    shortDescription: 'A premium automotive website designed to showcase detailing packages, ceramic coating services, pricing, and quote requests.',
+    heroGradient: 'from-amber-500/20 via-orange-500/10 to-transparent',
+    accentColor: '#f59e0b',
+    badge: 'High Conversion',
+    stats: [
+      { label: 'Primary Action', value: 'Instant Quote Request' },
+      { label: 'Design Theme', value: 'High-Gloss Dark Aesthetic' },
+      { label: 'Mobile Optimized', value: '100% Touch-Ready' },
+    ],
+    businessGoal: 'Present premium detailing and paint correction services with transparent package tiers and convert high-ticket local car enthusiasts into booked quote requests.',
+    designApproach: 'Dark carbon-fiber inspired luxury aesthetic, ultra-sharp vehicle photography, side-by-side package tier comparison, and high-visibility phone & booking triggers.',
+    keyFeatures: [
+      'Interactive Detailing Package Selector (Interior, Exterior, Ceramic Pro)',
+      'Vehicle Size & Condition Pricing Estimator',
+      'Paint Correction Before/After Transformation Showcase',
+      '1-Click Mobile Call & Direct SMS Contact Buttons',
+      'Clear Warranty, Ceramic Coating Care Guides & FAQs',
+      'Integrated Quote Request Form with Date & Vehicle Picker'
+    ],
+    conversionStrategy: 'Removed friction by replacing vague "call for pricing" with crystal-clear service tiers, pairing high-gloss visuals with immediate risk-free quote calculation.'
+  },
+  {
+    id: 'zestik',
+    title: 'Zestik',
+    tagline: 'Modern Lifestyle & Everyday Essentials',
+    industry: 'E-Commerce / Product Brand',
+    category: 'E-COMMERCE',
+    categories: ['E-COMMERCE', 'BUSINESS'],
+    url: 'https://zestik.netlify.app',
+    shortDescription: 'A modern product-focused e-commerce experience designed to make everyday products feel premium.',
+    heroGradient: 'from-cyan-500/20 via-blue-500/10 to-transparent',
+    accentColor: '#06b6d4',
+    badge: 'Direct-to-Consumer',
+    stats: [
+      { label: 'Focus', value: 'Product Storytelling' },
+      { label: 'Checkout', value: 'Friction-Free Cart' },
+      { label: 'Performance', value: 'Sub-second Load' },
+    ],
+    businessGoal: 'Elevate everyday home and personal essentials into aspirational lifestyle products and maximize average order value through intuitive product discovery.',
+    designApproach: 'Ultra-clean editorial layout, generous white-space, subtle micro-interactions, silky smooth product carousels, and persistent shopping bag access.',
+    keyFeatures: [
+      'Interactive Product Variant Switcher (Color, Size, Bundle)',
+      'Slide-over Sticky Cart Drawer with Free Shipping Threshold Bar',
+      'Micro-animated Feature Highlights & Material Breakdown',
+      'Curated Product Recommendations & Cross-sell Carousels',
+      'Fast Search and Category Filtering',
+      'Mobile Sticky "Add to Bag" Action Bar'
+    ],
+    conversionStrategy: 'Built urgency and trust through transparent inventory status, free shipping indicators, real material specifications, and seamless slide-out cart.'
+  },
+  {
+    id: 'dwyer-chiropractic',
+    title: 'Dwyer Chiropractic',
+    tagline: 'Modern Spine & Wellness Care',
+    industry: 'Healthcare / Local Business',
+    category: 'HEALTHCARE',
+    categories: ['HEALTHCARE', 'BUSINESS'],
+    url: 'https://dwyer-chiropractic.netlify.app',
+    shortDescription: 'A professional healthcare website focused on trust, services, patient education, and appointment conversion.',
+    heroGradient: 'from-emerald-500/20 via-teal-500/10 to-transparent',
+    accentColor: '#10b981',
+    badge: 'Local Healthcare',
+    stats: [
+      { label: 'Primary Goal', value: 'New Patient Bookings' },
+      { label: 'Tone', value: 'Calming & Clinical Trust' },
+      { label: 'Onboarding', value: 'What To Expect Guide' },
+    ],
+    businessGoal: 'Alleviate patient apprehension regarding spinal care, educate local families on non-surgical pain relief, and convert sufferers into confirmed consultation appointments.',
+    designApproach: 'Clean clinical palette (serene teals and soft slates), empathetic patient-first copy, readable typography, and visible reassurance points regarding doctor qualifications.',
+    keyFeatures: [
+      'Interactive "Where Does It Hurt?" Pain & Condition Explorer',
+      'Step-by-step "Your First Visit: What to Expect" Visual Guide',
+      'Online Patient Consultation & Intake Scheduling Form',
+      'Insurance Verification & Payment Plan Transparency',
+      'Dr. Dwyer Credentials, Certifications & Philosophy Showcase',
+      'Direct Click-to-Call & Google Maps Directions Integration'
+    ],
+    conversionStrategy: 'Addressed patient fears upfront with video tours, symptom-to-solution pathways, transparent new patient intake details, and a zero-pressure consultation CTA.'
+  },
+  {
+    id: 'client-acquisition-hub',
+    title: 'Client Acquisition Hub',
+    tagline: 'B2B Growth & Pipeline Accelerator',
+    industry: 'Lead Generation / Business Dashboard',
+    category: 'LEAD GENERATION',
+    categories: ['LEAD GENERATION', 'BUSINESS'],
+    url: 'https://client-acquisition-hub.netlify.app',
+    shortDescription: 'A conversion-focused client acquisition platform designed to organize prospects, demos, outreach, and sales opportunities.',
+    heroGradient: 'from-indigo-500/20 via-purple-500/10 to-transparent',
+    accentColor: '#6366f1',
+    badge: 'B2B Sales Engine',
+    stats: [
+      { label: 'Target', value: 'Founders & Sales Teams' },
+      { label: 'Funnel', value: 'Multi-Step Demo Intake' },
+      { label: 'Aesthetic', value: 'Dark Tech Luxury' },
+    ],
+    businessGoal: 'Position a high-value B2B growth agency, capture high-ticket discovery calls from founders, and showcase systematic pipeline generation methodology.',
+    designApproach: 'Sleek dark-mode enterprise UI, glowing accent gradients, real-time pipeline status cards, and frictionless calendar booking embedding.',
+    keyFeatures: [
+      'Interactive Pipeline Growth Calculator & ROI Projector',
+      'Self-Qualifying Lead Intake Form with Company Size Filters',
+      'Integrated Discovery Call Scheduling Widget',
+      'Live Case Study Performance Metric Tiles',
+      'FAQ Accordion Tackling Common Outbound Objections',
+      'Security, Privacy & Data Compliance Trust Badges'
+    ],
+    conversionStrategy: 'Pre-qualifies inbound prospects through dynamic form questions, ensuring sales meetings are only booked with qualified, budget-ready decision makers.'
+  },
+  {
+    id: 'abbies-music-academy',
+    title: "Abbie's Music Academy",
+    tagline: 'Inspiring Musical Education for All Ages',
+    industry: 'Education / Music Academy',
+    category: 'EDUCATION',
+    categories: ['EDUCATION', 'BUSINESS'],
+    url: 'https://abbies-music-academy.netlify.app',
+    shortDescription: 'A warm, conversion-focused website designed to help parents discover music programs and book trial lessons.',
+    heroGradient: 'from-rose-500/20 via-pink-500/10 to-transparent',
+    accentColor: '#f43f5e',
+    badge: 'Family & Education',
+    stats: [
+      { label: 'Audience', value: 'Parents & Young Musicians' },
+      { label: 'Conversion', value: 'Free Trial Lesson Booking' },
+      { label: 'Tone', value: 'Warm, Encouraging & Trustworthy' },
+    ],
+    businessGoal: 'Build parental trust, demystify beginner music lessons, highlight verified instructors, and convert parents into booking an in-person or virtual trial lesson.',
+    designApproach: 'Friendly, welcoming aesthetics with playful musical accents, warm studio photography, structured program breakdowns by age and instrument, and clear pricing options.',
+    keyFeatures: [
+      'Instrument Program Finder (Piano, Guitar, Vocals, Violin, Drums)',
+      'Faculty Profile Cards with Degrees, Experience & Video intros',
+      'Interactive Age-Group Filter (Early Childhood, Kids, Teens, Adults)',
+      'Frictionless 3-Step Trial Lesson Reservation Flow',
+      'Studio Location Tour, Parking Details & Safety Protocols',
+      'Annual Recital and Student Achievement Showcase'
+    ],
+    conversionStrategy: 'Lowers barriers to entry with a friendly "Book a Free 20-Minute Trial Lesson" CTA, eliminating parental uncertainty about whether their child will enjoy the instrument.'
+  },
+  {
+    id: 'taylors-custom-cakes',
+    title: "Taylor's Custom Cakes",
+    tagline: 'Artisanal Wedding & Celebration Cakes',
+    industry: 'Bakery / Local Business',
+    category: 'FOOD & BAKERY',
+    categories: ['FOOD & BAKERY', 'BUSINESS'],
+    url: 'https://taylors-custom-cakes.netlify.app',
+    shortDescription: 'A visually rich bakery website designed to showcase custom cakes, services, and simplify customer inquiries.',
+    heroGradient: 'from-pink-500/20 via-amber-500/10 to-transparent',
+    accentColor: '#ec4899',
+    badge: 'Artisanal Culinary',
+    stats: [
+      { label: 'Main Goal', value: 'Custom Order Inquiries' },
+      { label: 'Visuals', value: 'High-Definition Cake Gallery' },
+      { label: 'Ordering', value: 'Structured Request Builder' },
+    ],
+    businessGoal: 'Streamline bespoke cake ordering, stop chaotic DMs and missed text messages, and showcase stunning cake artistry for weddings, birthdays, and corporate events.',
+    designApproach: 'Chic boutique bakery elegance, soft warm tones, high-impact photo mosaics, clear flavor combination guides, and an organized cake inquiry form.',
+    keyFeatures: [
+      'Filterable Cake Gallery by Occasion (Weddings, Birthdays, Corporate)',
+      'Interactive Flavor, Sponge & Filling Combinations Menu',
+      'Serving Size & Tier Recommendation Guide for Event Planners',
+      'Structured Custom Cake Quote Request Form with Photo Upload',
+      'Lead Time, Order Policies & Delivery Coverage Radius Map',
+      'Client Love & Event Showcase'
+    ],
+    conversionStrategy: 'Replaces unstructured social media messaging with a guided request builder that gathers date, guest count, theme, and budget upfront.'
+  },
+  {
+    id: 'elevated-martial-arts',
+    title: 'Elevated Martial Arts',
+    tagline: 'Brazilian Jiu-Jitsu & Muay Thai Academy',
+    industry: 'Martial Arts / Fitness',
+    category: 'FITNESS',
+    categories: ['FITNESS', 'BUSINESS', 'LEAD GENERATION'],
+    url: 'https://elevated-martial-arts.netlify.app',
+    shortDescription: 'A high-energy local business website designed to convert visitors into trial class bookings.',
+    heroGradient: 'from-red-500/20 via-orange-500/10 to-transparent',
+    accentColor: '#ef4444',
+    badge: 'High Energy Fitness',
+    stats: [
+      { label: 'Lead Magnet', value: '7-Day Free Trial Pass' },
+      { label: 'Programs', value: 'BJJ, Muay Thai & Kids' },
+      { label: 'Format', value: 'Action-Packed Modern UI' },
+    ],
+    businessGoal: 'Overcome beginner intimidation, showcase a clean, welcoming academy culture, and convert local adults and parents into claiming a 7-day free trial membership.',
+    designApproach: 'High-contrast bold athletic aesthetic, punchy typography, dynamic martial arts training action, organized class timetable, and prominent trial registration.',
+    keyFeatures: [
+      'Interactive Discipline Showcase (Adult BJJ, Kids BJJ, Muay Thai, Self Defense)',
+      'Live Weekly Class Schedule with Filterable Timeslots',
+      'Instructor Black Belt Lineage & Competitive Experience',
+      '7-Day Free Trial Pass Claim Form with Instant SMS Confirmation',
+      'Virtual Academy Tour & Clean Mat Guarantee',
+      'Beginner Preparation Checklist & Gear Requirements'
+    ],
+    conversionStrategy: 'Offers an irresistible "Free 7-Day Trial + Free Uniform Upon Joining" hook, directly addressing intimidation by emphasizing beginner-only fundamentals classes.'
+  }
+];
+
+export const CATEGORIES = [
+  'ALL',
+  'BUSINESS',
+  'E-COMMERCE',
+  'HEALTHCARE',
+  'EDUCATION',
+  'AUTOMOTIVE',
+  'FITNESS',
+  'FOOD & BAKERY',
+  'LEAD GENERATION'
+];
