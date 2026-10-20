@@ -1,5 +1,35 @@
 export const PROJECTS = [
   {
+    id: 'tripnova-travel',
+    title: 'TripNova',
+    tagline: 'MakeMyTrip-Scale Travel Booking & Tourism Marketplace',
+    industry: 'Travel & Tourism / Marketplace SaaS',
+    category: 'TRAVEL & TECH',
+    categories: ['TRAVEL & TECH', 'BUSINESS', 'E-COMMERCE', 'LEAD GENERATION'],
+    url: 'https://tripnova.vercel.app',
+    shortDescription: 'A high-performance travel booking marketplace inspired by MakeMyTrip, featuring dynamic multi-category booking (Flights, Hotels, Villas, Packages), live search filters, interactive itineraries, coupon engines, and simulated payment workflows.',
+    heroGradient: 'from-blue-600/25 via-sky-500/15 to-transparent',
+    accentColor: '#0284c7',
+    badge: 'Enterprise Flagship',
+    stats: [
+      { label: 'Platform Type', value: 'Full-Stack Travel OTA' },
+      { label: 'Booking Modules', value: '7 Travel Categories' },
+      { label: 'Architecture', value: 'Next.js 15 + TypeScript' },
+    ],
+    businessGoal: 'Position enterprise full-stack development capabilities for travel agencies, tour operators, and marketplace startups seeking a MakeMyTrip-grade booking platform with dynamic pricing and admin controls.',
+    designApproach: 'Clean Indian travel-tech palette (deep navy with coral CTA accents), multi-tab hero search console, responsive layout across all viewports, transparent GST calculations, and celebratory booking confirmation.',
+    keyFeatures: [
+      'Multi-Tab Hero Booking Console (Flights, Hotels, Villas, Holiday Packages, Buses, Trains, Cabs)',
+      'Real-Time Multi-Criteria Filters (Price Sliders, Star Category, Guest Ratings, Amenities & Airlines)',
+      'Day-by-Day Interactive Package Itinerary Explorer with Inclusions & Exclusions',
+      'Dynamic Checkout Funnel with Promo Coupon Verification (TRIPNOVA500) & GST Computations',
+      'Instant Booking Confirmation with Reference ID Generator & Interactive Confetti Animation',
+      'Customer Dashboard (My Trips) with Cancellation & Refund Simulation',
+      'Administrative Management Dashboard (/admin) for Inventory, Revenue KPIs & Booking Logs'
+    ],
+    conversionStrategy: 'Eliminates checkout abandonment through transparent pricing, sticky trip cost summaries, verified traveler reviews, and friction-free payment selection.'
+  },
+  {
     id: 'ciotti-auto-detailing',
     title: 'Ciotti Auto Detailing',
     tagline: 'Premium Automotive Studio & Ceramic Coatings',
@@ -206,6 +236,7 @@ export const PROJECTS = [
 
 export const CATEGORIES = [
   'ALL',
+  'TRAVEL & TECH',
   'BUSINESS',
   'E-COMMERCE',
   'HEALTHCARE',
