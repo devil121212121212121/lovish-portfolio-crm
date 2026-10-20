@@ -6,7 +6,7 @@ export const PROJECTS = [
     industry: 'Travel & Tourism / Marketplace SaaS',
     category: 'TRAVEL & TECH',
     categories: ['TRAVEL & TECH', 'BUSINESS', 'E-COMMERCE', 'LEAD GENERATION'],
-    url: 'https://tripnova.vercel.app',
+    url: 'https://trip-nine-theta.vercel.app',
     shortDescription: 'A high-performance travel booking marketplace inspired by MakeMyTrip, featuring dynamic multi-category booking (Flights, Hotels, Villas, Packages), live search filters, interactive itineraries, coupon engines, and simulated payment workflows.',
     heroGradient: 'from-blue-600/25 via-sky-500/15 to-transparent',
     accentColor: '#0284c7',
